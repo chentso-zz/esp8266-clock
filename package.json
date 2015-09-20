@@ -1,0 +1,16 @@
+{
+  "name": "esp8266-clock",
+  "version": "0.0.1",
+  "description": "Gateway to poll time from Google search and respond for ESP8266 microcontrollers",
+  "main": "index.js",
+  "dependencies": {
+    "express": "~4.13.3",
+    "cheerio" : "~0.19.0",
+    "request" : "~2.62.0"
+  },
+  "scripts": {
+    "start": "nodejs index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
